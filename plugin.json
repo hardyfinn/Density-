@@ -1,0 +1,110 @@
+{
+  "slug": "Density",
+  "name": "Density",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Density",
+  "author": "Haer",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/hardyfinn/Density-",
+  "manualUrl": "https://github.com/hardyfinn/Density-/blob/main/docs/MANUAL.md",
+  "sourceUrl": "https://github.com/hardyfinn/Density-",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Harmonia",
+      "name": "Harmonia (HRM)",
+      "description": "HARMONIC family: six additive harmonic voices with odd, even, partials, tilt, morph, harmonic lock and three pan locations.",
+      "tags": [
+        "Oscillator",
+        "Polyphonic",
+        "Additive"
+      ],
+      "keywords": "HRM harmonic"
+    },
+    {
+      "slug": "Trace",
+      "name": "Trace (TRC)",
+      "description": "HARMONIC family: eight gestural CV recorders. Hold to record, release to loop; offset, attenuate, speed, slow-down, random phase, sub-loop.",
+      "tags": [
+        "Recording",
+        "Sample and hold",
+        "Utility"
+      ],
+      "keywords": "TRC harmonic gesture"
+    },
+    {
+      "slug": "Nonet",
+      "name": "Nonet (NON)",
+      "description": "HARMONIC family: stereo effect with nine algorithms and three modes each: long delay, phasers, FDN reverbs, stretch flanger, grains, scanner.",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Reverb",
+        "Phaser",
+        "Flanger",
+        "Granular"
+      ],
+      "keywords": "NON harmonic"
+    },
+    {
+      "slug": "Tangle",
+      "name": "Tangle (TGL)",
+      "description": "ENTANGLE family: one stereo effects core, 4 banks of 16 programs, six pots and a button. Cores side by side entangle.",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Reverb",
+        "Phaser",
+        "Flanger"
+      ],
+      "keywords": "TGL entangle"
+    },
+    {
+      "slug": "Weave",
+      "name": "Weave (WVE)",
+      "description": "ENTANGLE family: twelve coupled complex modulators, four voltage-controlled gates and a four-input pan mixer.",
+      "tags": [
+        "Low-frequency oscillator",
+        "VCA",
+        "Mixer",
+        "Random"
+      ],
+      "keywords": "WVE entangle"
+    },
+    {
+      "slug": "Axiom",
+      "name": "Axiom (AXM)",
+      "description": "EQUATION family: ten equations making four polyrhythmic pulse channels with accent and pitch.",
+      "tags": [
+        "Sequencer",
+        "Clock modulator",
+        "Random"
+      ],
+      "keywords": "AXM equation"
+    },
+    {
+      "slug": "Tetra",
+      "name": "Tetra (TET)",
+      "description": "EQUATION family: four 2-operator phase-modulation voices (W X Y Z), drum or voice mode, cross-modulation matrix.",
+      "tags": [
+        "Oscillator",
+        "Drum",
+        "Synth voice"
+      ],
+      "keywords": "TET equation"
+    },
+    {
+      "slug": "Cheb",
+      "name": "Cheb (CHB)",
+      "description": "EQUATION family: stereo Chebyshev (2nd kind) waveshaper with 40 predefined polynomials, scan and spread.",
+      "tags": [
+        "Waveshaper",
+        "Distortion"
+      ],
+      "keywords": "CHB equation"
+    }
+  ]
+}
