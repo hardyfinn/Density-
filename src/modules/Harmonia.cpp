@@ -43,7 +43,7 @@ struct Harmonia : Module, HarmoniaIds {
 		configExp(this, RATE_PARAM, 0.01f, 10.f, 0.1f, "Rate (cycle and breathing)", " Hz");
 		configParam(SPREAD_PARAM, 0.f, 1.f, 0.3f, "Spread (voices in turn)", "%", 0.f, 100.f);
 		configParam(FMFADE_PARAM, -1.f, 1.f, 0.f, "FM fade (self-modulation follows the envelope)");
-		configParam(LEVEL_PARAM, 0.f, 1.f, 0.8f, "Level", "%", 0.f, 100.f);
+		configParam(LEVEL_PARAM, 0.f, 1.f, 0.8f, "Level", "%", 0.f, 100.f)->randomizeEnabled = false;
 		configSwitch(ENVT_PARAM, 0.f, 2.f, 0.f, "Envelope", {"Drone", "One shot", "Cycle"});
 		configSwitch(ASSIGN_PARAM, 0.f, 2.f, 1.f, "Voice assign", {"Stack", "Round robin", "Channel"});
 		configButton(LOCK_PARAM, "Harmonic lock (all tilts follow voice 1)");
