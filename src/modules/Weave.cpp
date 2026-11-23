@@ -46,7 +46,7 @@ struct Weave : Module, WeaveIds {
 			configOutput(GOUT1_OUTPUT + j, n + "out");
 			static const float pans[4] = {-0.6f, -0.2f, 0.2f, 0.6f};
 			std::string mn = "Mixer " + std::to_string(j + 1) + " ";
-			configParam(MLEV1_PARAM + 2 * j, 0.f, 1.f, 0.7f, mn + "level", "%", 0.f, 100.f);
+			configParam(MLEV1_PARAM + 2 * j, 0.f, 1.f, 0.7f, mn + "level", "%", 0.f, 100.f->randomizeEnabled = false;
 			configParam(MPAN1_PARAM + 2 * j, -1.f, 1.f, pans[j], mn + "pan");
 			configInput(MIN1_INPUT + 2 * j, mn + "in (normalled from gate out)");
 			configInput(MPCV1_INPUT + 2 * j, mn + "pan CV (±5 V = ±1)");
