@@ -17,7 +17,7 @@ struct Cheb : Module, ChebIds {
 		configParam(SPREAD_PARAM, -8.f, 8.f, 0.f, "Spread (right channel scan offset)");
 		configExp(this, DRIVE_PARAM, 0.1f, 4.f, 1.f, "Drive", "×");
 		configParam(BIAS_PARAM, -0.5f, 0.5f, 0.f, "Bias (brings in even content)");
-		configParam(LEVEL_PARAM, 0.f, 2.f, 1.f, "Level", "%", 0.f, 100.f);
+		configParam(LEVEL_PARAM, 0.f, 2.f, 1.f, "Level", "%", 0.f, 100.f)->randomizeEnabled = false;
 		configTrim(this, SCAN_CV_PARAM, "Scan");
 		configTrim(this, SPREAD_CV_PARAM, "Spread");
 		configTrim(this, DRIVE_CV_PARAM, "Drive");

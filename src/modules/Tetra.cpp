@@ -39,7 +39,7 @@ struct Tetra : Module, TetraIds {
 		configNamed(this, ROUTE_PARAM, 0.f, 7.f, 0.f, "Matrix route", dens::TETRA_ROUTE_NAMES, 8);
 		configParam(MATRIX_PARAM, 0.f, 1.f, 0.f, "Matrix depth", "%", 0.f, 100.f);
 		configParam(SPREAD_PARAM, 0.f, 50.f, 0.f, "Detune", " cents");
-		configParam(LEVEL_PARAM, 0.f, 1.f, 0.8f, "Level", "%", 0.f, 100.f);
+		configParam(LEVEL_PARAM, 0.f, 1.f, 0.8f, "Level", "%", 0.f, 100.f)->randomizeEnabled = false;
 		configSwitch(MODE_PARAM, 0.f, 1.f, 0.f, "Mode", {"Voice", "Drum"});
 		configTrim(this, INDEX_CV_PARAM, "Index");
 		configTrim(this, MATRIX_CV_PARAM, "Matrix");
